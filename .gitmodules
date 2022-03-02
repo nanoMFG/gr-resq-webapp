@@ -1,9 +1,7 @@
-[submodule "GSA-webapp-frontend"]
-	path = GSA-webapp-frontend
-	url = git@github.com:nanoMFG/GSA-webapp-frontend.git
 [submodule "gr-resq-webapp-backend"]
 	path = gr-resq-webapp-backend
 	url = git@github.com:nanoMFG/gr-resq-webapp-backend.git
 [submodule "GSA-Database"]
 	path = GSA-Database
-	url = git@github.com:nanoMFG/GSA-Database.git
+	url = https://github.com/nanoMFG/GSA-Database.git
+	branch = flaskapi

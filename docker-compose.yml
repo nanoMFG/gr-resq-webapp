@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  flaskapp:
+    build: ./GSA-Database/src
+    ports:
+      - "5000:5000"
+
+  backend-for-frontend:
+    build: ./gr-resq-webapp-backend
+    ports:
+      - "8000:8000"
